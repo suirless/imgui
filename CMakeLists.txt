@@ -23,7 +23,7 @@ elseif (UNIX AND NOT APPLE)
     file(GLOB IMGUI_PLATFORM_SOURCES
     	"${CMAKE_CURRENT_SOURCE_DIR}/examples/imgui_impl_opengl3.cpp"
     	"${CMAKE_CURRENT_SOURCE_DIR}/examples/imgui_impl_opengl3.h"
-    	"${CMAKE_CURRENT_SOURCE_DIR}/examples/imgui_impl_glfw.mm"
+    	"${CMAKE_CURRENT_SOURCE_DIR}/examples/imgui_impl_glfw.cpp"
     	"${CMAKE_CURRENT_SOURCE_DIR}/examples/imgui_impl_glfw.h"
 	)
 endif() 
